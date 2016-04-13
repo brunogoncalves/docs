@@ -35,7 +35,6 @@ Para formar, você poderá executar o comando abaixo:
       mkfs.ext3 /dev/xvdc
 
 ## Configurando no boot da máquina
-Para fazer a montagem de uma partição de forma automática no boot
 
 Os passos explicados anteriormente devem ser repetidos toda vez que você usar o Linux. Para evitar isso, é possível montar a partição automaticamente, durante o processo de inicialização. Para isso, basta localizar o arquivo fstab.
 
