@@ -1,6 +1,6 @@
 # HD Externo
 
-Bom, no exemplo abaixo estou considerando que estou utilizando o servidor `AWS EC2` (da aws.amazom.com) e um volume EBS, no entanto creio que no caso de ser uma máquina local, basta instalar o HD na maquina e fazer o boot reconhecer.
+Bom, no exemplo abaixo estou considerando que estou utilizando o servidor `AWS EC2` (da aws.amazom.com) e um volume EBS, no entanto creio que no caso de ser uma máquina local, basta instalar o HD na máquina e fazer o boot reconhecer.
 
 Uma vez dentro do linux com o HD externo conectado, podemos verificar se o mesmo está disponível para o linux.
 
