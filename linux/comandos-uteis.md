@@ -50,7 +50,7 @@ SendMail do Linux:
  
 As mensagens a ser enviadas estão na pasta:
 
-   /var/spool/mqueue/
+    /var/spool/mqueue/
  
 Para ver a lsita de mensages:
 
