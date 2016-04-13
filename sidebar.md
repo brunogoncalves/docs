@@ -3,7 +3,7 @@
  - [HD externo](/linux/hd-externo.md)
  - [Usuários](/linux/usuarios.md)
  - [Console, vim e scripts coloridos](/linux/console-colorido.md)
- - [Data Hora e Fuso](/linux/datahora-fuso.md)
+ - [Data, hora e Fuso](/linux/datahora-fuso.md)
  - [Outros comandos úteis](/linux/comandos-uteis.md)
 
 #### Apache
