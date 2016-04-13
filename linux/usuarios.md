@@ -16,7 +16,7 @@ Devemos associá-los ao shell/false
 
     vim /etc/shells
 
-Adicione o /bin/false na lista se não tiver
+Adicione o `/bin/false` na lista se não tiver
 
 <a name="criar-usuario"></a> 
 ## Para criar um usuário:
