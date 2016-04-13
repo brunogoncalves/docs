@@ -16,7 +16,7 @@ Executando o comando a cima, devemos ter algo parecido com isto:
     202        1    8388608 xvda1
     202       32   52428800 xvdc
 
-Neste caso meu HD externo esta na partição xvdc
+Neste caso meu HD externo esta na partição `xvdc`
 
 Para montar basta executar o caminho abaixo
 
@@ -28,7 +28,7 @@ Agora, você deve montar a partição
 
      mount /dev/xvdc /dados/
 
-Quando o HD estiver zerado, será necessario formatá-lo e atribuir um tipo de fylesystem
+Quando o HD estiver zerado, será necessário formatá-lo e atribuir um tipo de `fylesystem`
 
 Para formar, você poderá executar o comando abaixo:
 
@@ -36,9 +36,9 @@ Para formar, você poderá executar o comando abaixo:
 
 ## Configurando no boot da máquina
 
-Os passos explicados anteriormente devem ser repetidos toda vez que você usar o Linux. Para evitar isso, é possível montar a partição automaticamente, durante o processo de inicialização. Para isso, basta localizar o arquivo fstab.
+Os passos explicados anteriormente devem ser repetidos toda vez que você usar o Linux. Para evitar isso, é possível montar a partição automaticamente, durante o processo de inicialização. Para isso, basta localizar o arquivo `fstab`.
 
-Geralmente ele se encontra #dentro do diretório /etc/. Abra o arquivo e adicione a seguine linha no final (para o nosso exemplo):
+Geralmente ele se encontra dentro do diretório `/etc/`. Abra o arquivo e adicione a seguine linha no final (para o nosso exemplo):
 
      /dev/xvdc /dados vfat defaults 0 0
 
