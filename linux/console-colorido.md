@@ -1,4 +1,4 @@
-# Console, VIM e Scripts coloridos
+# Console, vim e Scripts coloridos
 
 Para definir as cores dos scripts iremos adicionar algumas definições no arquivo `.bashrc`
 
