@@ -1,5 +1,7 @@
 # Escrevendo Arquivos MD
 
+Nome do arquivo (onde não pode conter letras maiúsculas, espaços ou acentos ortográficos. Para separar palavras, podemos usar hífen ou underline.) + .md
+
 Para criar um título - # + texto.
 
 Para alterar o tamanho do título, acrescentar mais ##, conforme preferência.
