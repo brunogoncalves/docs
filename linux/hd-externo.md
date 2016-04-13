@@ -5,6 +5,7 @@
 - [Desmontar a partição](#desmontando-particao)
 - [Aumentou o tamanho do HD?](#aumentou-hd)
 
+
 Bom, no exemplo abaixo estou considerando que estou utilizando o servidor `AWS EC2` (da aws.amazom.com) e um volume EBS, no entanto creio que no caso de ser uma máquina local, basta instalar o HD na máquina e fazer o boot reconhecer.
 
 <a name="montando-hd"></a>
