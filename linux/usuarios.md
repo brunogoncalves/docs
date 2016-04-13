@@ -9,7 +9,7 @@
 
 Para criar usuários que não irão fazer login no sistema (ssh) mas será utilizado no APACHE e FTP
 
-Devemos associa-los ao shell/false
+Devemos associá-los ao shell/false
 
 <a name="configurar-shell-false"></a> 
 ## Para configurar o shell/false:
