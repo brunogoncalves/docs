@@ -1,4 +1,3 @@
-#### Linux
  - [Pacotes](/linux/pacotes.md)
  - [HD externo](/linux/hd-externo.md)
  - [Usuários](/linux/usuarios.md)
