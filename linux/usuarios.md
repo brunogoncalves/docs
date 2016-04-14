@@ -1,6 +1,7 @@
 # Usuários
 
 
+
 Para criar usuários que não irão fazer login no sistema (ssh) mas será utilizado no APACHE e FTP
 
 Devemos associá-los ao shell/false
