@@ -1,5 +1,11 @@
 {
   "path": "/",
   "branch_name": "Beta",
-  "sidebar": "/sidebar.md"
+  "sidebar": "/sidebar.md",
+  
+  "modules": [
+    "auto_title_index",
+    "external_link_blank"
+  ]
+  
 }
