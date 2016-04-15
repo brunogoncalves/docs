@@ -13,6 +13,7 @@
  - [SSL](/apache/ssl.md)
 
 #### PHP
+- [Instalando](/php/instalando.md)
 
 #### MySQL
 
