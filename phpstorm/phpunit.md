@@ -45,8 +45,12 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
    
    Em seguida enter nas configurações do PhpUnit dentro do item PHP:
    
-   ![Phpunit](printPhpunit.jpg)
+   ![Phpunit](imgs/printPhpunit.jpg)
    
    Selecione "Use custom loader" e em seguida em "Path to script" passe o caminho do phpunit:
    
-   ![Phpunit2](printPhpunit2.jpg)
+   ![Phpunit2](imgs/printPhpunit2.jpg)
+   
+   Por final em "Test Runner" selecione "Default configuration file" e passe o caminho do phpunit.xml criado anteriormente:
+   
+   ![Phpunit3](imgs/printPhpunit3.jpg)
