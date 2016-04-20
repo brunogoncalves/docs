@@ -1,0 +1,44 @@
+# Configurando o PhpUnit no PhpStorm
+
+Inclua o phpunit no seu composer.json, ex:
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+       }
+
+Execute o comando update do composer na matriz do projeto:
+
+    composer update
+
+Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+     <phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="tests/bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         syntaxCheck="true"
+         verbose="true"
+    >
+    <testsuites>
+        <testsuite name="NetForce Framework Test Suite">
+            <directory suffix="Test.php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+    </php>
+   </phpunit>
+
+Entre nas configurações do seu PhpStorm
+
+xxx
