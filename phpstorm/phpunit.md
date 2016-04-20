@@ -6,7 +6,7 @@ Inclua o phpunit no seu composer.json, ex:
         "phpunit/phpunit": "~4.1"
        }
 
-Execute o comando update do composer na matriz do projeto:
+Execute o comando update do composer na matriz do projeto pelo console:
 
     composer update
 
