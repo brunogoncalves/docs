@@ -41,7 +41,7 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
    
    Entre nas configurações do seu PhpStorm:
    
-   ![Settings](printSettings.jpg)
+   ![Settings](imgs/printSettings.jpg)
    
    Em seguida enter nas configurações do PhpUnit dentro do item PHP:
    
