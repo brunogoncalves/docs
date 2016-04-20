@@ -38,7 +38,15 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
         <env name="QUEUE_DRIVER" value="sync"/>
     </php>
    </phpunit>
-
-Entre nas configurações do seu PhpStorm
-
-xxx
+   
+   Entre nas configurações do seu PhpStorm:
+   
+   ![Settings](printSettings.jpg)
+   
+   Em seguida enter nas configurações do PhpUnit dentro do item PHP:
+   
+   ![Phpunit](printPhpunit.jpg)
+   
+   Selecione "Use custom loader" e em seguida em "Path to script" passe o caminho do phpunit:
+   
+   ![Phpunit2](printPhpunit2.jpg)
