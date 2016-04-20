@@ -1,5 +1,6 @@
 # Configurando o PhpUnit no PhpStorm
 
+
 Inclua o phpunit no seu composer.json, ex:
 
     "require-dev": {
@@ -43,13 +44,16 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
    
    ![Settings](https://raw.githubusercontent.com/JohannLucas/docs/master/phpstorm/imgs/printSettings.jpg)
    
+   
    Em seguida enter nas configurações do PhpUnit dentro do item PHP:
    
    ![Phpunit](https://raw.githubusercontent.com/JohannLucas/docs/master/phpstorm/imgs/printPhpunit.jpg)
    
+   
    Selecione "Use custom loader" e em seguida em "Path to script" passe o caminho do phpunit:
    
    ![Phpunit2](https://raw.githubusercontent.com/JohannLucas/docs/master/phpstorm/imgs/printPhpunit2.jpg)
+   
    
    Por final em "Test Runner" selecione "Default configuration file" e passe o caminho do phpunit.xml criado anteriormente:
    
