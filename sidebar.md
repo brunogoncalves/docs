@@ -25,5 +25,4 @@
 #### GitHub
 
 #### PhpStorm
-##### PhpUnit
- - [Configurando](/phpstorm/phpunit/configurando.md)
+ - [PhpUnit](/phpstorm/phpunit.md)
