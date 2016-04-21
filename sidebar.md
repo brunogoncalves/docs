@@ -30,6 +30,8 @@
 
 #### Composer
 
+- [Instalando](/composer/instalando.md)
+
 #### GitHub
 - [Removendo uma pasta](/github/removendo-pasta.md)
 - [Sincronizando o Fork](/github/sincronizando-fork.md)
