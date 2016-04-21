@@ -12,6 +12,7 @@ Neste ponto, costumo alterar a pasta de dados do MySQL para o HD externo.
 
 Então com o MySQL parado (service mysqld stop) podemos mudar seguindo os passos abaixo:
 
+
 Copiando a pasta MySQL para o HD externo:
 
     cp -r -p /var/lib/mysql/ /dados/mysql/
