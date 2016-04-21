@@ -18,7 +18,7 @@
 
 #### MySQL
 
- - [Instalando](/apache/instalando-mysql.md)
+ - [Instalando](/mysql/instalando-mysql.md)
 
 #### VsFTP
 
