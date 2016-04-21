@@ -18,6 +18,8 @@
 
 #### MySQL
 
+ - [Instalando](/apache/instalando-mysql.md)
+
 #### VsFTP
 
 #### Samba
