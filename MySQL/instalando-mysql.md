@@ -59,7 +59,7 @@ No BDE em: Configurations \ Drivers \ ODBC \ MySQL ODBC 3.51 Driver
 
 ## Erros
 
-Em máquina replicadas quando vai ser importando um SCRIPT com alteração de banco ocorre o seguinte erro: binary logging not possible
+Em máquinas replicadas quando vai ser importando um SCRIPT com alteração de banco ocorre o seguinte erro: binary logging not possible
 
 Para corrigir esse problema deve ser carregado um SQL Query e executar o seguinte comando:
 
