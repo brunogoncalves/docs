@@ -42,19 +42,19 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
    
    Entre nas configurações do seu PhpStorm:
    
-   ![Settings](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/printSettings.jpg)
+   ![Settings](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-settings.jpg)
    
 
    Em seguida enter nas configurações do PhpUnit dentro do item PHP:
    
-   ![Phpunit](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/printPhpunit.jpg)
+   ![Phpunit](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-phpunit.jpg)
    
    
    Selecione "Use custom loader" e em seguida em "Path to script" passe o caminho do phpunit:
    
-   ![Phpunit2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/printPhpunit2.jpg)
+   ![Phpunit2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-phpunit2.jpg)
    
    
    Por final em "Test Runner" selecione "Default configuration file" e passe o caminho do phpunit.xml criado anteriormente:
    
-   ![Phpunit3](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/printPhpunit3.jpg)
+   ![Phpunit3](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-phpunit3.jpg)
