@@ -20,14 +20,14 @@
     URL         : http://www.php.net/
     License     : PHP
     Description : PHP is an HTML-embedded scripting language. PHP attempts to make it
-            : easy for developers to write dynamically generated webpages. PHP also
-            : offers built-in database integration for several commercial and
-            : non-commercial database management systems, so writing a
-            : database-enabled webpage with PHP is fairly simple. The most common
-            : use of PHP coding is probably as a replacement for CGI scripts.
-            :
-            : The php package contains the module which adds support for the PHP
-            : language to Apache HTTP Server.
+                : easy for developers to write dynamically generated webpages. PHP also
+                : offers built-in database integration for several commercial and
+                : non-commercial database management systems, so writing a
+                : database-enabled webpage with PHP is fairly simple. The most common
+                : use of PHP coding is probably as a replacement for CGI scripts.
+                :
+                : The php package contains the module which adds support for the PHP
+                : language to Apache HTTP Server.
 
 ## Instalar repositórios:
 
