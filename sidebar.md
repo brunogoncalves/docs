@@ -28,7 +28,7 @@
 
 #### GitHub
 - [Removendo uma pasta](/github/removendo-pasta.md)
-- [Sincronizando o Fork](/github/sincronizandoFork.md)
+- [Sincronizando o Fork](/github/sincronizando-fork.md)
 
 #### PhpStorm
  - [PhpUnit](/phpstorm/phpunit.md)
