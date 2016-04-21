@@ -26,6 +26,8 @@
 
 #### Samba
 
+ - [Instalando](/samba/instalando.md)
+
 #### Composer
 
 #### GitHub
