@@ -24,6 +24,7 @@
 #### Composer
 
 #### GitHub
+- [Removendo uma pasta](/github/removendo-pasta.md)
 
 #### PhpStorm
  - [PhpUnit](/phpstorm/phpunit.md)
