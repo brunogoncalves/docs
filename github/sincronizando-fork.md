@@ -18,7 +18,7 @@ Execute os seguintes comandos no console:
 
 Execute os seguintes comandos:
 
-    git remote add upstream git://github.com/pjhyett/github-services.git
+    git remote add upstream git://github.com/usuario/repositorio.git
     
     git fetch upstream
     
