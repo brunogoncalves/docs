@@ -4,6 +4,6 @@ Algumas vezes é enviado a pasta `.idea` (pasta oculta) de controle do PhpStorm 
 
 Então é preciso executar o comando abaixo para marcar a pasta `.idea` como removida do projeto.
 
-    git rm -r --cached .idea
+    git rm -r .idea
 
 Pronto, agora a pasta roi removida, basta fazer um commit e push para que a alteração vá para o github.
