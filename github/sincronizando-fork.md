@@ -12,7 +12,7 @@ Execute os seguintes comandos no console:
     
     git merge upstream/master master
     
-    git rebase upstream/master]
+    git rebase upstream/master
     
 ## Caso contrário
 
