@@ -23,6 +23,7 @@
 #### Composer
 
 #### GitHub
+ - [Sincronizando o Fork](/github/sincronizandoFork.md)
 
 #### PhpStorm
  - [PhpUnit](/phpstorm/phpunit.md)
