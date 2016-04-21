@@ -85,7 +85,7 @@ Esse repositório não é suportado pelo CentOS, então para dependências, só 
 
 Configurá-los explicitamente com opção, você pode usar para tentar obter informações sobre php
 
-Chegar disponibilidades:
+Checar disponibilidades:
 
     yum --enablerepo=epel,remi,rpmforge info php
  
