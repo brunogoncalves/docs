@@ -1,5 +1,6 @@
 # Sincronizando o Fork
 
+
 Abra o GitBash ou qualquer outro console no projeto:
 
 ![GitBash](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/print-gitbash.jpg)
