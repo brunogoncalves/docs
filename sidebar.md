@@ -5,6 +5,7 @@
  - [Console, vim e scripts coloridos](/linux/console-colorido.md)
  - [Data, hora e fuso](/linux/datahora-fuso.md)
  - [Outros comandos úteis](/linux/comandos-uteis.md)
+ - [Instalando Git e Subsplit](/linux/gitesubsplit.md)
 
 #### Apache
  - [Instalando](/apache/instalando.md)
@@ -22,9 +23,15 @@
 
 #### VsFTP
 
+ - [Instalando](/ftp/instalando.md)
+
 #### Samba
 
+ - [Instalando](/samba/instalando.md)
+
 #### Composer
+
+- [Instalando](/composer/instalando.md)
 
 #### GitHub
 - [Removendo uma pasta](/github/removendo-pasta.md)
