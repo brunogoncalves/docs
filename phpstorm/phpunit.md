@@ -52,9 +52,9 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
    
    Selecione "Use custom loader" e em seguida em "Path to script" passe o caminho do phpunit:
    
-   ![Phpunit2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-library.jpg)
+   ![Phpunit2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-phpunit-library.jpg)
    
    
    Por final em "Test Runner" selecione "Default configuration file" e passe o caminho do phpunit.xml criado anteriormente:
    
-   ![Phpunit3](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-testrunner.jpg)
+   ![Phpunit3](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-phpunit-testrunner.jpg)
