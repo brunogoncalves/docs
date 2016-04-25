@@ -12,7 +12,7 @@ Execute o comando update do composer na matriz do projeto pelo console:
     composer update
 
 Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
-
+```xml
     <?xml version="1.0" encoding="UTF-8"?>
      <phpunit backupGlobals="false"
          backupStaticAttributes="false"
@@ -39,6 +39,7 @@ Crie o arquivo phpunit.xml na matriz do projeto e configure-o, ex:
         <env name="QUEUE_DRIVER" value="sync"/>
     </php>
    </phpunit>
+   ```
    
    Entre nas configurações do seu PhpStorm:
    
