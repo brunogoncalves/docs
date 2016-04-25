@@ -26,4 +26,18 @@ Execute os seguintes comandos:
     
     git rebase upstream/master
     
+## Verificar se já possui o Upstream    
+
+Execute o comando para listar o remote:
+
+     git remote -v
+     
+Se você não possuir upstreams você terá o seguinte resultado:
+
+![GitBash-NoHaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-origin.jpg)
+
+Já se você possuir terá esse resultado:
+
+![GitBash-HaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-upstream.jpg)
+    
     
