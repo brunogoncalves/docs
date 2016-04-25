@@ -40,4 +40,8 @@ Já se você possuir terá esse resultado:
 
 ![GitBash-HaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-upstream.jpg)
     
-    
+## Remover Upstream
+
+Execute o seguinte comando para remover os upstreams:
+
+     git remote rm upstream
