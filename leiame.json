@@ -1,12 +1,14 @@
 {
-  "path": "/",
-  "branch_name": "Beta",
-  "sidebar": "/sidebar.md",
-  "logo": "https://raw.githubusercontent.com/brunogoncalves/docs/master/imgs/logo.jpg",
-  
-  "modules": [
-    "auto_title_index",
-    "external_link_blank"
-  ]
-  
+    "path"       : "/",
+    "branch_name": "Beta",
+    "sidebar"    : "/sidebar.md",
+
+    "logo": "https://cdn.rawgit.com/brunogoncalves/docs/master/theme/logo.png",
+    "favicon": "https://cdn.rawgit.com/brunogoncalves/docs/master/theme/favicon.png",
+
+    "modules": [
+        "auto_title_index",
+        "external_link_blank"
+    ]
+
 }
