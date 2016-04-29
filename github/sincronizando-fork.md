@@ -4,6 +4,20 @@ Abra o GitBash ou qualquer outro console no projeto:
 
 ![GitBash](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/print-gitbash.jpg)
 
+## Verificar se já possui o Upstream    
+
+Para sincronizar o fork você precisa saber se já possui um Upstream criado no remote, para isso execute o comando que irá listar o remote:
+
+     git remote -v
+     
+Se você não possuir upstreams você terá o seguinte resultado:
+
+![GitBash-NoHaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-origin.jpg)
+
+Já se você possuir terá esse resultado:
+
+![GitBash-HaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-upstream.jpg)
+
 ## Caso já tenha criado o Upstream
 
 Execute os seguintes comandos no console:
@@ -25,20 +39,6 @@ Execute os seguintes comandos:
     git merge upstream/master master
     
     git rebase upstream/master
-    
-## Verificar se já possui o Upstream    
-
-Execute o comando para listar o remote:
-
-     git remote -v
-     
-Se você não possuir upstreams você terá o seguinte resultado:
-
-![GitBash-NoHaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-origin.jpg)
-
-Já se você possuir terá esse resultado:
-
-![GitBash-HaveUpstream](https://raw.githubusercontent.com/brunogoncalves/docs/master/github/imgs/github-remote-upstream.jpg)
     
 ## Remover Upstream
 
