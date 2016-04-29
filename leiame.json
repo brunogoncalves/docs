@@ -3,8 +3,8 @@
     "branch_name": "Beta",
     "sidebar"    : "/sidebar.md",
 
-    "logo": "https://rawgit.com/brunogoncalves/docs/master/theme/logo.png",
-    "favicon": "https://cdn.rawgit.com/brunogoncalves/docs/master/theme/favicon.png",
+    "logo": "http://rawgit.com/brunogoncalves/docs/master/theme/logo.png",
+    "favicon": "http://cdn.rawgit.com/brunogoncalves/docs/master/theme/favicon.png",
 
     "modules": [
         "auto_title_index",
