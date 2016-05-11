@@ -7,7 +7,7 @@ isso siga os passos:
 
 1- No phpstorm abra a página Settings (CTRL+ALT+S) e clique em Plugins no painel a esquerda:
 
-![SettingsPlugins](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-plugins.jpg)
+![SettingsPlugins](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-settings-plugins.jpg)
 
 2- Em seguida clique em **Install JetBrains plugin...** e na janela que se abre procure por **GitHub** e clique duas
 vezes na mesma, logo clique em **Yes** na outra janela que irá aparecer.
@@ -19,11 +19,11 @@ siga os seguintes passos:
 
 1- No phpstorm abra a página Settings (CTRL+ALT+S), clique na opção a esquerda **Version Control** e depois na opção **GitHub**:
 
-![SettingsGitHub](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-github.jpg)
+![SettingsGitHub](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-settings-github.jpg)
 
 2- Nos campos que aparecem insira o host **github.com** e depois suas credencias do github, em seguida clique em **Ok**:
 
-![SettingsGitHub2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-github2.jpg)
+![SettingsGitHub2](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print-settings-github2.jpg)
 > Você pode clicar no botão **Test** para testar suas credenciais com o github caso desejar
 
 ## Usar
