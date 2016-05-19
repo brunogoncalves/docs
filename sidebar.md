@@ -43,7 +43,7 @@
  - [GitHub](/phpstorm/github.md)
 
 
- #### Bower
+#### Bower
  - [Instalando](/bower/instalando.md)
  - [Iniciando em um Projeto](/bower/iniciando-em-projeto.md)
  - [Alterando diretório padrão](/bower/alterando-diretorio-padrao.md)
