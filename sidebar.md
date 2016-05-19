@@ -41,3 +41,11 @@
 #### PhpStorm
  - [PhpUnit](/phpstorm/phpunit.md)
  - [GitHub](/phpstorm/github.md)
+
+
+ #### Bower
+ - [Instalando](/bower/instalando.md)
+ - [Iniciando em um Projeto](/bower/iniciando-em-projeto.md)
+ - [Alterando diretório padrão](/bower/alterando-diretorio-padrao.md)
+ - [Pesquisando pacotes](/bower/pesquisando-pacotes.md)
+ - [Adicionando um pacote no Projeto](/bower/adicionando-pacote.md)
