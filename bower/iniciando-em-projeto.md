@@ -1,4 +1,4 @@
-# Instalando Bower num projeto
+# Iniciando o Bower num projeto
 
 Nesse exemplo, vamos ilustrar um projeto web simples, sem *back-end*, mas garanto que vai ficar fácil de entender como incorpora-lo ao seu projeto, independente da linguagem.
 
