@@ -33,6 +33,10 @@ e em seguida executar:
 
     bower install
     
-**Obersação:**
+**Observação 1:**
 Toda vez que você executa o ```bower install```, ele verifica quais as dependências existentes no seu arquivo ```bower.json``` e caso elas não estejam presentes na pasta de componentes serão instaladas.
+
+
+**Observação 2:**
+Você pode, também, adicionar como dependência do seu Projeto um repositório no Github, por exemplo ``` bower install https://github.com/tihhgoncalves/bootstrap-device-debug --save ```. Desse modo, sempre que o repositório for atualizado, você receberá as atualizações. 
 
