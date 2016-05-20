@@ -14,4 +14,4 @@ Aqui estamos basicamente mandando ele instalar o Bower no nosso computador, uma 
 
 Para instalar o NodeJS e o NPM no CentOS, basta executar o comando a baixo:
 
-    yum install nodejs npm
+    yum --enablerepo=epel,remi,rpmforge info nodejs npm
