@@ -6,7 +6,7 @@ Para trabalharmos em um projeto, precisamos antes instalar o repositório localm
         git clone https://github.com/<USUARIO>/<REPOSITORIO>.git
 
 
-Onde ```<USUÁRIO>``` é a conta responsável pelo repositório e ``<REPOSITORIO>``` é o repositório que você quer instalar.
+Onde ```<USUÁRIO>``` é a conta responsável pelo repositório e ```<REPOSITORIO>``` é o repositório que você quer instalar.
 A URL, na verdade, você pode baixar direto do botão "Clone" lá na página principal do repositório.
 
 As vezes é necessário você especificar o usuário e a senha do usuário que vai baixar o repositório.
