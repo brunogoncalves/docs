@@ -35,6 +35,7 @@
 
 #### GitHub
 - [Criando uma liberação TAG](/github/criando-tag.md)
+- [Instalar Repositório](/github/instalar-repositorio.md)
 - [Removendo uma pasta](/github/removendo-pasta.md)
 - [Sincronizando o Fork](/github/sincronizando-fork.md)
 
