@@ -32,6 +32,7 @@
 #### Composer
 
 - [Instalando](/composer/instalando.md)
+- [Repositórios privados](/composer/repo-privado.md)
 
 #### GitHub
 - [Baixando e instalando Repositório](/github/instalar-repositorio.md)
