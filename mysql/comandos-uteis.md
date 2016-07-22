@@ -18,3 +18,14 @@ WHERE TABLE_SCHEMA = 'mysql'
 GROUP BY TABLE_NAME
 ORDER BY SIZE_MB DESC, TABLE_NAME
 ```
+
+### Diminuindo o tamanho do banco de dados
+
+m problema que enfrentava sempre que colocava um aplicativo utilizando o MySQL é o tamanho sempre crescente do arquivo
+`/var/lib/mysql/ibdata1.` Este arquivo armazena as tableas do tipo InnoDB e, mesmo que os dados sejam removidos ou elimine
+tabelas e, até mesmo, banco de dados, o tamanho do ibdata1 não diminui,
+o que pode ocasionar problemas de espaço em disco mais para frente.
+
+```sql
+OPTIMIZE TABLE tabela;
+```
