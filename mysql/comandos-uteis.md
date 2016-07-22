@@ -26,6 +26,8 @@ m problema que enfrentava sempre que colocava um aplicativo utilizando o MySQL �
 tabelas e, até mesmo, banco de dados, o tamanho do ibdata1 não diminui,
 o que pode ocasionar problemas de espaço em disco mais para frente.
 
+Também deve ser pesquisado: `innodb_file_per_table`
+
 ```sql
 OPTIMIZE TABLE tabela;
 ```
