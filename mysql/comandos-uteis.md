@@ -1,6 +1,6 @@
 # Outros comandos úteis do MySQL
 
-## Exibir o tamanho de cada database
+### Exibir o tamanho de cada database
 
 ```sql
 SELECT TABLE_SCHEMA BANCO, ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024, 2) SIZE_MB, ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024 / 1024, 2) SIZE_GB
@@ -9,7 +9,7 @@ GROUP BY TABLE_SCHEMA
 ORDER BY SIZE_MB DESC, TABLE_SCHEMA
 ```
 
-## Exibir o tamanho das tabelas de um database:
+### Exibir o tamanho das tabelas de um database:
 
 ```sql
 SELECT TABLE_NAME TABELA, ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024, 2) SIZE_MB, ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024 / 1024, 2) SIZE_GB
