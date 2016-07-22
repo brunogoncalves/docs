@@ -1,6 +1,6 @@
 # Outros comandos úteis do MySQL
 
-Exeibir o tamanho de cada database:
+Exibir o tamanho de cada database:
 
 ```sql
 
