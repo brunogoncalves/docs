@@ -1,6 +1,7 @@
 #### Linux
  - [Pacotes](/linux/pacotes.md)
  - [HD externo](/linux/hd-externo.md)
+ - [Mapear pasta compartilhada](/linux/mapear-pasta.md)
  - [Usuários](/linux/usuarios.md)
  - [Console, vim e scripts coloridos](/linux/console-colorido.md)
  - [Data, hora e fuso](/linux/datahora-fuso.md)
