@@ -21,3 +21,7 @@
         }
     ]
 ```
+
+## Se precisar configurar o token no composer
+
+    composer config -g github-oauth.github.com <oauthtoken>
