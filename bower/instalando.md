@@ -1,3 +1,9 @@
+# Instalando NPM (NodeJS)
+
+    curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+    
+    yum instal nodejs
+
 # Instalando Bower
 
 Inicialmente é necessário primeiro que você tenha o [Node](http://nodejs.org) junto com o [NPM](https://npmjs.org) instalado na sua máquina. 
