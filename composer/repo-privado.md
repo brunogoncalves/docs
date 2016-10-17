@@ -35,6 +35,6 @@ SSH key válida para poder utilizar o mesmo. Siga os seguintes passos para confi
 
 - Caso você não tenha gerado e/ou adicionado uma SSH Key no GitHub, entre nesse link https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/ para gerar a key e/ou entre nesse link para adicionar a sua ssh key no GitHub https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/.
 
-- Para poder utilizar sua SSH Key você precisa colocar o caminho da sua pasta mingw32/bin onde contém o git.exe e o caminho da sua pasta usr/bin onde contém o ssh.exe no path do Windows.
+- Para poder utilizar sua SSH Key você precisa colocar o caminho da sua pasta `mingw32/bin` onde contém o `git.exe` e o caminho da sua pasta `usr/bin` onde contém o `ssh.exe` no path do Windows.
 
-- O caminho provável para estas pastas é o *C:\Users\YourUser\AppData\Local\GitHub\PortableGit_numbers-and-letters*, nesse diretório você encontrará as duas pastas citadas acima, então apenas coloque-as no path do Windows (Sistema -> Configurações Avançadas do Sistema -> Variáveis de Ambiente...)
+- O caminho provável para estas pastas é o **C:\Users\YourUser\AppData\Local\GitHub\PortableGit_numbers-and-letters**, nesse diretório você encontrará as duas pastas citadas acima, então apenas coloque-as no path do Windows (Sistema -> Configurações Avançadas do Sistema -> Variáveis de Ambiente...)
