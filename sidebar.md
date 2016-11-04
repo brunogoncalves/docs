@@ -40,7 +40,7 @@
 - [Baixando e instalando Repositório](/github/instalar-repositorio.md)
 - [Criando uma liberação TAG](/github/criando-tag.md)
 - [Removendo uma pasta](/github/removendo-pasta.md)
-- [Sincronizando o Fork](/github/sincronizando-fork.md)
+- [Sincronizando um Fork](/github/sincronizando-fork.md)
 
 #### PhpStorm
  - [PhpUnit](/phpstorm/phpunit.md)
