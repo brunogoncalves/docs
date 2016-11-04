@@ -40,6 +40,11 @@ Execute os seguintes comandos:
     
     git rebase upstream/master
     
+```blob 
+Caso o repositório de origem for privado bote sua url da seguinte maneira:
+git@github.com:usuario/repositorio.git
+```
+
 ## Remover Upstream
 
 Execute o seguinte comando para remover os upstreams:
