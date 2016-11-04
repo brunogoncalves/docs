@@ -1,4 +1,4 @@
-# Sincronizando o Fork
+# Sincronizando um Fork
 
 Abra o GitBash ou qualquer outro console no projeto:
 
