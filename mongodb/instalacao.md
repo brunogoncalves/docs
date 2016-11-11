@@ -13,7 +13,7 @@ depois de ter feito o download execute o arquivo .msi e faça todos os procedime
 O caminho provável do bin é "C:\Program Files\MongoDB\Server\<versãoMongoDB>\bin"
 
 #### MongoDB Service
-- O mongod.exe é o server do MongoDB
+*O mongod.exe é o server do MongoDB*
 
 Para não ter que iniciar o ```mongod``` toda vez que for o usar o MongoDB, iremos criar um serviço para o MongoDB, dessa maneira
 siga os passos a seguir:
@@ -37,11 +37,11 @@ serviço do mongod apenas com um comando no cmd passando como parâmetro os dire
 O arquivo de configuração será um arquivo ```.cfg``` e terá que especificar o ```systemLog.path``` e o ```storage.dbPath```, portanto crie
 o arquivo seguindo o modelo abaixo:
 
-``` systemLog:
-    destination: file
-    path: c:\data\log\mongod.log
-    storage:
-    dbPath: c:\data\db ```
+``` systemLog: ```
+``` destination: file ```
+``` path: c:\data\log\mongod.log ```
+``` storage: ```
+``` dbPath: c:\data\db ```
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
 
