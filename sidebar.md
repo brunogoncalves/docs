@@ -23,6 +23,10 @@
  - [Instalando](/mysql/instalando-mysql.md)
  - [Outros comandos úteis](/mysql/comandos-uteis.md)
 
+#### MongoDB
+
+- [Instalando](/mongodb/instalacao.md)
+
 #### VsFTP
 
  - [Instalando](/ftp/instalando.md)
