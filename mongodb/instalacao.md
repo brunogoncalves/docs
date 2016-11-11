@@ -59,4 +59,4 @@ Por fim, inicialize o MongoDB Service com o seguinte comando:
 
 ```net start MongoDB```
 
-Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao NoSQL.
+Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao mundo NoSQL.
