@@ -26,8 +26,8 @@ Aperte a ```Win``` key e digite cmd, depois aperte ```CTRL + SHIFT + ENTER``` pa
 
 O MongoDB necessita de diretórios para armazenar o db e os logs, crie eles preferencialmente seguindo o padrão a seguir:
 
-``` mkdir c:\data\db
-    mkdir c:\data\log```
+``` mkdir c:\data\db ```
+``` mkdir c:\data\log ```
 
 3. Crie um configuration file
 
