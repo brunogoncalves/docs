@@ -20,28 +20,28 @@ siga os passos a seguir:
 
 1. Abra o cmd como administrador
 
-Aperte a ```Win``` key e digite cmd, depois aperte ```CTRL + SHIFT + ENTER``` para abrir o cmd como administrador.
+  Aperte a ```Win``` key e digite cmd, depois aperte ```CTRL + SHIFT + ENTER``` para abrir o cmd como administrador.
 
 2. Crie diretórios
 
-O MongoDB necessita de diretórios para armazenar o db e os logs, crie eles preferencialmente seguindo o padrão a seguir:
+  O MongoDB necessita de diretórios para armazenar o db e os logs, crie eles preferencialmente seguindo o padrão a seguir:
 
-``` mkdir c:\data\db ```
-``` mkdir c:\data\log ```
+  ``` mkdir c:\data\db ```
+  ``` mkdir c:\data\log ```
 
 3. Crie um configuration file
 
-Não é necessariamente preciso a criação de um arquivo de configuração, mas é o mais recomendado. Claro que você pode fazer a instalação do
-serviço do mongod apenas com um comando no cmd passando como parâmetro os diretórios do db e do log.
+  Não é necessariamente preciso a criação de um arquivo de configuração, mas é o mais recomendado. Claro que você pode fazer a instalação do
+  serviço do mongod apenas com um comando no cmd passando como parâmetro os diretórios do db e do log.
 
-O arquivo de configuração será um arquivo ```.cfg``` e terá que especificar o ```systemLog.path``` e o ```storage.dbPath```, portanto crie
-o arquivo seguindo o modelo abaixo:
+  O arquivo de configuração será um arquivo ```.cfg``` e terá que especificar o ```systemLog.path``` e o ```storage.dbPath```, portanto crie
+  o arquivo seguindo o modelo abaixo:
 
-``` systemLog: ```
-``` destination: file ```
-``` path: c:\data\log\mongod.log ```
-``` storage: ```
-``` dbPath: c:\data\db ```
+    ``` systemLog: 
+    ``` destination: file 
+    ``` path: c:\data\log\mongod.log
+    ``` storage:
+    ``` dbPath: c:\data\db ```
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
 
@@ -59,4 +59,4 @@ Por fim, inicialize o MongoDB Service com o seguinte comando:
 
 ```net start MongoDB```
 
-Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao futuro.
+Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao NoSQL.
