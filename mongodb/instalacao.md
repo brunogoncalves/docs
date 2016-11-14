@@ -37,11 +37,13 @@ siga os passos a seguir:
   O arquivo de configuração será um arquivo ```.cfg``` e terá que especificar o ```systemLog.path``` e o ```storage.dbPath```, portanto crie
   o arquivo seguindo o modelo abaixo:
 
-    ``` systemLog: 
-    ``` destination: file 
-    ``` path: c:\data\log\mongod.log
-    ``` storage:
-    ``` dbPath: c:\data\db ```
+    ```
+    systemLog: 
+    destination: file 
+    path: c:\data\log\mongod.log
+    storage:
+    dbPath: c:\data\db 
+    ```
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
 
