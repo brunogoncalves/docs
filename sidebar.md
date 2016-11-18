@@ -26,6 +26,7 @@
 #### MongoDB
 
 - [Instalando](/mongodb/instalacao.md)
+- [Find em Arrays](/mongodb/find_array.md)
 
 #### VsFTP
 
