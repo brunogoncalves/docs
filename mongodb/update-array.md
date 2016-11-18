@@ -1,4 +1,4 @@
-# Find - Array
+# Update em Arrays
 
 Supondo que temos uma coleção chamada __Pessoas__ e nela temos os seguintes registros:
 
