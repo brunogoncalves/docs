@@ -44,6 +44,8 @@ siga os passos a seguir:
     storage:
         dbPath: c:\data\db 
     ```
+*Tome cuidado com o configuration file, ele costuma dar problemas por causa do tab, caso dê problema tente identar o texto apertando
+4 vezes a tecla espaço em cada campo necessário, assim como segue o modelo acima*
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
 
