@@ -39,10 +39,10 @@ siga os passos a seguir:
 
     ```
     systemLog: 
-    destination: file 
-    path: c:\data\log\mongod.log
+        destination: file 
+        path: c:\data\log\mongod.log
     storage:
-    dbPath: c:\data\db 
+        dbPath: c:\data\db 
     ```
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
@@ -51,7 +51,13 @@ Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```
 
 Finalmete para criar o serviço do MongoDB execute o seguinte comando no cmd:
 
-```sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe\" --service --config=\"C:\Program Files\MongoDB\Server\3.2\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"```
+```
+mongod --config "C:\Program Files\MongoDB\Server\3.2\mongod.cfg" --install
+```
+ou 
+```
+sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe\" --service --config=\"C:\Program Files\MongoDB\Server\3.2\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
+```
 
 Caso você tenha sucesso na operação retornará a seguinte mensagem:
 
