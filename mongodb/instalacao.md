@@ -2,17 +2,17 @@
 
 ## Windows
 
-### Download
+## Download
 
 Para fazer a instalação do MongoDB no windows, primeiro baixe-o no seguite site: "https://www.mongodb.com/download-center#community",
 depois de ter feito o download execute o arquivo .msi e faça todos os procedimentos pedidos.
 
-### Instalação
+## Instalação
 
 - A primeira coisa recomendada a ser feita é por o bin do MongoDB no path do windows, então faça isso.
 O caminho provável do bin é "C:\Program Files\MongoDB\Server\<versãoMongoDB>\bin"
 
-#### MongoDB Service
+### MongoDB Service
 > O **mongod.exe** é o server do MongoDB
 
 Para não ter que iniciar o ```mongod``` toda vez que for o usar o MongoDB, iremos criar um serviço para o MongoDB, dessa maneira
@@ -44,8 +44,8 @@ siga os passos a seguir:
     storage:
         dbPath: c:\data\db 
     ```
-*Tome cuidado com o configuration file, ele costuma dar problemas por causa do tab, caso dê problema tente identar o texto apertando
-4 vezes a tecla espaço em cada campo necessário, assim como segue o modelo acima*
+> Tome cuidado com o configuration file, ele costuma dar problemas por causa do tab, caso dê problema tente identar o texto apertando
+4 vezes a tecla espaço em cada campo necessário, assim como segue o modelo acima.
 
 Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```mongod.cfg```
 
@@ -61,7 +61,7 @@ ou
 sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe\" --service --config=\"C:\Program Files\MongoDB\Server\3.2\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
 ```
 
-Caso você tenha sucesso na operação retornará a seguinte mensagem:
+Caso você tenha usado o segundo jeito e tenha sucesso na operação, retornará a seguinte mensagem:
 
 ``` [SC] CreateService SUCCESS ```
 
