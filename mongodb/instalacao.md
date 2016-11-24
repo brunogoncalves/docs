@@ -8,7 +8,6 @@ Para fazer a instalação do MongoDB no windows, primeiro baixe-o no seguite sit
 depois de ter feito o download execute o arquivo .msi e faça todos os procedimentos pedidos.
 
 ## Instalação
-
 - A primeira coisa recomendada a ser feita é por o bin do MongoDB no path do windows, então faça isso.
 O caminho provável do bin é "C:\Program Files\MongoDB\Server\<versãoMongoDB>\bin"
 
