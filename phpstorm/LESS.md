@@ -18,7 +18,7 @@ Clique no menu File e depois em ```Settings...```
 
 ## Passo 3 – Arquivos de Disparos
 
-Abrirá uma janela igual a imagem abaixo. Nessa janela, na barra esquerda, clica em ```Tools``` e depois em File Watches.
+Abrirá uma janela igual a imagem abaixo. Nessa janela, na barra esquerda, clica em ```Tools``` e depois em ```File Watches```.
 Com o espaço que abrirá ao lado da barra que você clicou, clica no ícone verde com o ```+``` e depois em LESS.
   
 ![SettingsPlugins](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print_phpstorm_less_tela3.png)
@@ -30,8 +30,9 @@ No exemplo utilizado na imagem abaixo, consideramos que entro do diretório ```/
 No campo ```Output paths``` ro reference você especifica qual o diretório e arquivo que será salvo o arquivo compilado. 
 No nosso exemplo abaixo, ```css/style.css```.
 
-![SettingsPlugins](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print_phpstorm_less_tela3.png)
+![SettingsPlugins](https://raw.githubusercontent.com/brunogoncalves/docs/master/phpstorm/imgs/print_phpstorm_less_tela4.png)
 
 ## Passo 5 - Pronto!
 
-Seu sistema já está configurado. Toda vez que você salvar um arquivo do seu projeto, será executado o comando que compila seu arquivo LESS.
+Seu sistema já está configurado. 
+Toda vez que você salvar um arquivo do seu projeto, será executado o comando que compila seu arquivo LESS.
