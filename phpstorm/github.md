@@ -1,4 +1,4 @@
-# Configurando o GitHub no PhpStorm
+    # Configurando o GitHub no PhpStorm
 
 ## Passo 1 - Plugin GitHub
 
