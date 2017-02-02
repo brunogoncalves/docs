@@ -11,7 +11,7 @@ isso siga os passos:
 
 **2-** Em seguida clique em **Install JetBrains plugin...** e na janela que se abre procure por **GitHub** e clique duas
 vezes na mesma, logo clique em **Yes** na outra janela que irá aparecer.
-
+f
 ## Passo 2 - Registrar Conta
 
 Para continuar com a integração do github você vai precisar registar sua conta do github no phpstorm, para isso
