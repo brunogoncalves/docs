@@ -23,7 +23,7 @@ Dependendo de como é escrito o seu PHP, também costumo aplicar a seguinte alte
     short_open_tag = On
     register_globals = On
 
-Na versão 5.6ou superior á um problema com o `CUrl` quando executado via cli funciona mas quando usado via apache não funciona, diz que a função `curl_init()` não existe. Para resolver esse problema é preciso copiar os arquivo abaixo para a pasta bin do apache e reinicia-lo:
+Na versão 5.6 ou superior á um problema com o `CUrl` quando executado via cli funciona mas quando usado via apache não funciona, diz que a função `curl_init()` não existe. Para resolver esse problema é preciso copiar os arquivo abaixo para a pasta bin do apache e reinicia-lo:
  - libeay32.dll
  - libssh2.dll
  - ssleay32.dll
