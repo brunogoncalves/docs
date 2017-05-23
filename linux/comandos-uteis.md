@@ -1,5 +1,9 @@
 # Outros comandos úteis
 
+Criar/editar tarefas da cron de outro usuário
+
+    crontab -u netforce -e
+
 Descobrir o tamanho de uma pasta:
 
     du -hs /netforce/
