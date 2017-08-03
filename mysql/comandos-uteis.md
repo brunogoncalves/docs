@@ -28,6 +28,11 @@ o que pode ocasionar problemas de espaço em disco mais para frente.
 
 Também deve ser pesquisado: `innodb_file_per_table`
 
+```bash
+[mysqld]
+innodb_file_per_table=1
+```
+
 ```sql
 OPTIMIZE TABLE tabela;
 ```
