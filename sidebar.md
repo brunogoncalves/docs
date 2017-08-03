@@ -7,6 +7,7 @@
  - [Data, hora e fuso](/linux/datahora-fuso.md)
  - [Outros comandos úteis](/linux/comandos-uteis.md)
  - [Instalando Git e Subsplit](/linux/gitesubsplit.md)
+ - [Configurando Rede](/linux/ip.md)
 
 #### Apache
  - [Instalando](/apache/instalando.md)
