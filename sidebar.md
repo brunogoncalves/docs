@@ -17,7 +17,7 @@
 
 #### PHP
 - [Instalando](/php/instalando.md)
-- [Versão 54](/php/versao54.md)
+- [Versão 54](/php/versao-cinco-quatro.md)
 
 #### MySQL
 
