@@ -59,6 +59,10 @@ As mensagens a ser enviadas estão na pasta:
 Para ver a lsita de mensages:
 
     mailq
+    
+Para excluir as mensagens:
+
+    postfix flush
 
 Listar usuários já registrados:
 
