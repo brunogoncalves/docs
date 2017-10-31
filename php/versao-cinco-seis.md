@@ -18,4 +18,4 @@ Verificando a disponibilidade do repositórios recém instalados:
 
 Instalando o PHP:
 
-    yum install php56w php56w-mysql php56w-gd php56w-imap php56w-rar php56w-xml php56w-mbstring php56w-cli php56w-common php56w-pecl-imagick php56w-xml 
+    yum install php56w php56w-mysql php56w-gd php56w-imap php56w-rar php56w-xml php56w-mbstring php56w-cli php56w-common php56w-pecl-imagick php56w-xml php56w-opcache
