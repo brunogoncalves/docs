@@ -124,4 +124,5 @@ Mais algumas dicas rápidas e muito úteis para quem está começando com MongoD
 - Evite expressões regulares sem início e/ou fim (ˆ e $, respectivamente), uma vez que os índices são ordenados pelos valores, o que faz com que todo o índice tenha de ser percorrido em expressões regulares ineficientes como essas;
 - Scripts complexos do banco de dados devem ser salvos em arquivos .js e versionados junto ao seu projeto da aplicação;
 - Na dúvida de como modelar seu banco? Faça-o pensando na experiência de consulta, que é o foco do modelo orientado à documentos;
+
 Estas foram algumas dicas e boas práticas de uso do MongoDB. Embora não existam “verdades universais” quando o assunto são os bancos não-relacionais, as recomendações oficiais são sempre um bom “norte” para quem está começando com tecnologias que não conhecemos bem e é isso que quis trazer aqui hoje, sendo que todas essas dicas (e muitas outras), podem ser encontrados nos artigos técnicos do MongoDB.
