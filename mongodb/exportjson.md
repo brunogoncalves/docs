@@ -1,7 +1,7 @@
 # Exportar coleção para arquivo .json
 
 ## Sintaxe:                  
-```
+``` 
 mongoexport -d database_name -c collection_name -o outfile.json
 ```
 
@@ -10,7 +10,7 @@ mongoexport -d database_name -c collection_name -o outfile.json
 
 ## Exemplo: 
 Exportar a coleção Department em myfirstdb database para arquivo json: C:/test/department.json                            
-```
+``` 
 mongoexport -d myfirstdb -c Department -o C:/test/department.json
 ```
 
