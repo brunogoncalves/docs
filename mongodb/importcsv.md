@@ -10,7 +10,7 @@ mongoimport -d database_name -c collection_name --type csv --file locations.csv 
 
 ## Exemplo: 
 Importar para myfirstdb database a coleção Department3 do arquivo C:/test/department.csv                             
-```
+``` 
 mongoimport -d myfirstdb -c Department3 --type csv --file C:/test/department.csv --headerline
 ```
 
