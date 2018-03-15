@@ -1,4 +1,4 @@
-# Exportar uma coleção para um arquivo .json
+# Exportar coleção para arquivo .json
 
 ## Sintaxe:                  
 ``` mongoexport -d database_name -c collection_name -o outfile.json ```
