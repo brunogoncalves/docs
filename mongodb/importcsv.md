@@ -6,7 +6,7 @@
 ## Dicas:
 --headerline: Usa a primeira linha do arquivo para o nome das colunas da coleção.
 
-##Exemplo: 
+## Exemplo: 
 Importar para myfirstdb database a coleção Department3 do arquivo C:/test/department.csv                             
 ``` mongoimport -d myfirstdb -c Department3 --type csv --file C:/test/department.csv --headerline ```
 
