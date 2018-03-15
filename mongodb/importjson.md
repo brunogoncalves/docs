@@ -1,7 +1,7 @@
 # Importar arquivo .json para coleção
 
 ## Sintaxe:
-```
+``` 
 mongoimport -d database_name -c collection_name outfile.json
 ```
 
@@ -9,7 +9,7 @@ mongoimport -d database_name -c collection_name outfile.json
 
 ## Exemplo: 
 Importar para myfirstdb database a coleção Department2 do arquivo C:/test/department.json                
-```
+``` 
 mongoimport -d myfirstdb -c Department2 C:/test/department.json
 ```
 
