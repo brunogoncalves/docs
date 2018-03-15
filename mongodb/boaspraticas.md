@@ -3,7 +3,7 @@ O MongoDB é um banco de dados de código aberto, gratuito, de alta performance,
 É utilizado por organizações de todos os tamanhos para a criação de aplicações online onde baixa latência, alta vazão e alta disponibilidade sejam requisitos críticos do sistema. Nele, as informações são armazenadas em documentos BSON, semelhante aos objetos JSON usados largamente na web, ao invés de tabelas e colunas.
 No entanto, armazenar dados em documentos é uma forma de persistência relativamente comum entre os banco não-relacionais, sendo o MongoDB o mais popular de todos eles, como mostra o gráfico abaixo da pesquisa mais recente de bancos de dados utilizados pela audiência do StackOverflow em 2017.
 
-img1
+![01](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/boaspraticas01.png)
 
 Dentre todos os bancos não relacionais o MongoDB é o mais utilizado – quase ⅕ dos respondentes alegam utilizá-lo em seus projetos, o que é mais até mesmo do que o Oracle, um banco muito mais tradicional.
 Até aqui talvez você não tenha lido nenhuma novidade, mas como tirar o maior proveito possível do MongoDB? Como não cair nas armadilhas que se escondem por trás de sua simplicidade? Por que MongoDB e não outro banco de dados?
@@ -66,7 +66,7 @@ Esta função exibe informações sobre como a query será (ou foi) executada, i
 - Quais outros planos de execução foram rejeitados pelo motor de consulta do Mongo, indicando ainda o tempo que essa decisão levou, geralmente 0ms (o que indica menos que 1ms)
 A ferramenta MongoDB Compass, disponível nas assinaturas Enterprise e Professional do MongoDB, permite visualizar planos de execução de uma maneira bem prática e didática, sendo que cada estágio do pipeline de execução é exibido como um nó em uma árvore, como mostra a figura abaixo:
 
-img2
+![02](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/boaspraticas02.png)
 
 ## Configure a garantia de escrita apropriada
 Muito se discute sobre a qualidade da persistência de dados do MongoDB frente aos bancos relacionais mais maduros e líderes de mercado. No entanto, testes e mais testes comprovam que falhas de ACID geralmente são provocadas por má programação, e não pelo banco de dados em si.
