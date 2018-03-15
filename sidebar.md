@@ -26,6 +26,7 @@
 
 **MongoDB**
 - [Backup de uma base](/mongodb/dump.md)
+- [Boas práticas com MongoDB](/mongodb/boaspraticas.md)
 - [Exportar coleção para arquivo .json](/mongodb/exportjson.md)
 - [Exportar coleção para arquivo .csv](/mongodb/importcsv.md)
 - [Importar arquivo .json para coleção](/mongodb/importjson.md)
