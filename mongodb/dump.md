@@ -3,7 +3,7 @@
 ## Sintaxe:
 ``` mongodump -d database_name -o output_directory ```
 
-## Examplo: 
+## Exemplo: 
 Backup de myfirstdb database para o diretório C:\test 
 ``` mongodump -d myfirstdb -o C:/test ```
 
