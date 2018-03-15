@@ -12,7 +12,7 @@ mongoexport -d database_name -c collection_name -f column_1,column_2,column_3 --
 
 ## Exemplo: 
 Exportar a coleção Department em myfirstdb database para arquivo csv: C:/test/department.csv                     
-```
+``` 
 mongoexport -d myfirstdb -c Department -f dept_id,dept_no,dept_name,location,description --csv -o C:/test/department.csv
 ```
  
