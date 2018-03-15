@@ -1,11 +1,15 @@
 # Restore de uma base
 
 ## Sintaxe:
-``` mongorestore -d database_name path_to_database ```
+```
+mongorestore -d database_name path_to_database
+```
 
 ## Exemplo: 
 A pasta C:\test\myfirstdb contém os arquivos de backup. Usaremos ela para restaurar: mydb2                 
-``` mongorestore -d mydb2 C:\test\myfirstdb ```
+```
+mongorestore -d mydb2 C:\test\myfirstdb
+```
 
 ![01](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/restore01.png)
 
