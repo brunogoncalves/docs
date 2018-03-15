@@ -1,4 +1,4 @@
-#### Linux
+**Linux**
  - [Pacotes](/linux/pacotes.md)
  - [HD externo](/linux/hd-externo.md)
  - [Mapear pasta compartilhada](/linux/mapear-pasta.md)
@@ -9,24 +9,22 @@
  - [Instalando Git e Subsplit](/linux/gitesubsplit.md)
  - [Configurando Rede](/linux/ip.md)
 
-#### Apache
+**Apache**
  - [Instalando](/apache/instalando.md)
  - [Virtual Host](/apache/virtualhost.md)
  - [Load Balance](/apache/loadbalance.md)
  - [SSL](/apache/ssl.md)
 
-#### PHP
+**PHP**
 - [Instalando](/php/instalando.md)
 - [Versão 54](/php/versao-cinco-quatro.md)
 - [Versão 56](/php/versao-cinco-seis.md)
 
-#### MySQL
-
+**MySQL**
  - [Instalando](/mysql/instalando-mysql.md)
  - [Outros comandos úteis](/mysql/comandos-uteis.md)
 
-#### MongoDB
-
+**MongoDB**
 - [Backup de uma base](/mongodb/dump.md)
 - [Exportar uma coleção para um arquivo .json](/mongodb/exportjson.md)
 - [Exportar uma coleção para um arquivo .csv](/mongodb/importcsv.md)
@@ -36,33 +34,28 @@
 - [Restore de uma base](/mongodb/restore.md)
 - [Update em Arrays](/mongodb/update-array.md)
 
-#### VsFTP
-
+**VsFTP**
  - [Instalando](/ftp/instalando.md)
 
-#### Samba
-
+**amba**
  - [Instalando](/samba/instalando.md)
 
-#### Composer
-
+**Composer**
 - [Instalando](/composer/instalando.md)
 - [Repositórios privados](/composer/repo-privado.md)
 
-#### GitHub
+**GitHub**
 - [Baixando e instalando Repositório](/github/instalar-repositorio.md)
 - [Criando uma liberação TAG](/github/criando-tag.md)
 - [Removendo uma pasta](/github/removendo-pasta.md)
 - [Sincronizando um Fork](/github/sincronizando-fork.md)
 
-#### PhpStorm
+**PhpStorm**
  - [GitHub](/phpstorm/github.md)
  - [LESS](/phpstorm/less.md)
  - [PhpUnit](/phpstorm/phpunit.md)
- 
 
-
-#### Bower
+**Bower**
  - [Instalando](/bower/instalando.md)
  - [Iniciando em um Projeto](/bower/iniciando-em-projeto.md)
  - [Alterando diretório padrão](/bower/alterando-diretorio-padrao.md)
