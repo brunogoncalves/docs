@@ -63,7 +63,8 @@ Esta função exibe informações sobre como a query será (ou foi) executada, i
 - Se uma ordenação in-memory foi realizada, o que indica que a criação de um índice poderia ser benéfica;
 - O número de entradas do índice que foram escaneadas;
 - Quanto tempo a consulta levou para retornar, em ms;
-- Quais outros planos de execução foram rejeitados pelo motor de consulta do Mongo, indicando ainda o tempo que essa decisão levou, geralmente 0ms (o que indica menos que 1ms)              
+- Quais outros planos de execução foram rejeitados pelo motor de consulta do Mongo, indicando ainda o tempo que essa decisão levou, geralmente 0ms (o que indica menos que 1ms) 
+
 A ferramenta [MongoDB Compass](https://www.mongodb.com/download-center#compass), disponível nas assinaturas Enterprise e Professional do MongoDB, permite visualizar planos de execução de uma maneira bem prática e didática, sendo que cada estágio do pipeline de execução é exibido como um nó em uma árvore, como mostra a figura abaixo:
 
 ![02](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/boaspraticas02.png)
