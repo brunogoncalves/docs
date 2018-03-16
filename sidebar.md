@@ -46,6 +46,7 @@
 - [Repositórios privados](/composer/repo-privado.md)
 
 **GitHub**
+- [Add nova branch](/github/add-branch.md)
 - [Baixando e instalando Repositório](/github/instalar-repositorio.md)
 - [Criando uma liberação TAG](/github/criando-tag.md)
 - [Removendo uma pasta](/github/removendo-pasta.md)
