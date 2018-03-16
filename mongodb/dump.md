@@ -5,6 +5,9 @@
 mongodump -d database_name -o output_directory 
 ```
 
+## Referências:
+[mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/index.html)
+
 ## Exemplo: 
 Backup de myfirstdb database para o diretório C:\test   
 ``` 
