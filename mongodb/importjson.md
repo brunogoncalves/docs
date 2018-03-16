@@ -7,7 +7,7 @@ mongoimport -d database_name -c collection_name outfile.json
 
 ## Dicas:
 
-## Referências
+## Referências:
 [mongoimport](https://docs.mongodb.com/manual/reference/program/mongoimport/index.html#use)
 
 ## Exemplo: 
