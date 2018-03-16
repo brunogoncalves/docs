@@ -5,6 +5,9 @@
 mongorestore -d database_name path_to_database
 ```
 
+## Referências
+[mongorestore](https://docs.mongodb.com/manual/reference/program/mongorestore/index.html)
+
 ## Exemplo: 
 A pasta C:\test\myfirstdb contém os arquivos de backup. Usaremos ela para restaurar: mydb2                 
 ``` 
