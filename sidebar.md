@@ -38,7 +38,7 @@
 **VsFTP**
  - [Instalando](/ftp/instalando.md)
 
-**amba**
+**Samba**
  - [Instalando](/samba/instalando.md)
 
 **Composer**
