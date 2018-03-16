@@ -5,7 +5,7 @@
 mongorestore -d database_name path_to_database
 ```
 
-## Referências
+## Referências:
 [mongorestore](https://docs.mongodb.com/manual/reference/program/mongorestore/index.html)
 
 ## Exemplo: 
