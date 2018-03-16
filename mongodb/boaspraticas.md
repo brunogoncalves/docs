@@ -1,7 +1,7 @@
 # Boas Práticas
 O MongoDB é um banco de dados de código aberto, gratuito, de alta performance, sem esquemas e orientado a documentos lançado em fevereiro de 2009 pela empresa 10gen. Foi escrito na linguagem de programação C++ (o que o torna portável para diferentes sistemas operacionais) e seu desenvolvimento durou quase dois anos, tendo iniciado em 2007.
 É utilizado por organizações de todos os tamanhos para a criação de aplicações online onde baixa latência, alta vazão e alta disponibilidade sejam requisitos críticos do sistema. Nele, as informações são armazenadas em documentos BSON, semelhante aos objetos JSON usados largamente na web, ao invés de tabelas e colunas.
-No entanto, armazenar dados em documentos é uma forma de persistência relativamente comum entre os banco não-relacionais, sendo o MongoDB o mais popular de todos eles, como mostra o gráfico abaixo da pesquisa mais recente de bancos de dados utilizados pela audiência do StackOverflow em 2017.
+No entanto, armazenar dados em documentos é uma forma de persistência relativamente comum entre os banco não-relacionais, sendo o MongoDB o mais popular de todos eles, como mostra o gráfico abaixo da pesquisa mais recente de bancos de dados utilizados pela [audiência do StackOverflow em 2017](https://insights.stackoverflow.com/survey/2017#technology).
 
 ![01](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/boaspraticas01.png)
 
@@ -64,7 +64,7 @@ Esta função exibe informações sobre como a query será (ou foi) executada, i
 - O número de entradas do índice que foram escaneadas;
 - Quanto tempo a consulta levou para retornar, em ms;
 - Quais outros planos de execução foram rejeitados pelo motor de consulta do Mongo, indicando ainda o tempo que essa decisão levou, geralmente 0ms (o que indica menos que 1ms)
-A ferramenta MongoDB Compass, disponível nas assinaturas Enterprise e Professional do MongoDB, permite visualizar planos de execução de uma maneira bem prática e didática, sendo que cada estágio do pipeline de execução é exibido como um nó em uma árvore, como mostra a figura abaixo:
+A ferramenta [MongoDB Compass](https://www.mongodb.com/download-center#compass), disponível nas assinaturas Enterprise e Professional do MongoDB, permite visualizar planos de execução de uma maneira bem prática e didática, sendo que cada estágio do pipeline de execução é exibido como um nó em uma árvore, como mostra a figura abaixo:
 
 ![02](https://raw.githubusercontent.com/brunogoncalves/docs/master/mongodb/imagens/boaspraticas02.png)
 
@@ -125,4 +125,4 @@ Mais algumas dicas rápidas e muito úteis para quem está começando com MongoD
 - Scripts complexos do banco de dados devem ser salvos em arquivos .js e versionados junto ao seu projeto da aplicação;
 - Na dúvida de como modelar seu banco? Faça-o pensando na experiência de consulta, que é o foco do modelo orientado à documentos;
 
-Estas foram algumas dicas e boas práticas de uso do MongoDB. Embora não existam “verdades universais” quando o assunto são os bancos não-relacionais, as recomendações oficiais são sempre um bom “norte” para quem está começando com tecnologias que não conhecemos bem e é isso que quis trazer aqui hoje, sendo que todas essas dicas (e muitas outras), podem ser encontrados nos artigos técnicos do MongoDB.
+Estas foram algumas dicas e boas práticas de uso do MongoDB. Embora não existam “verdades universais” quando o assunto são os bancos não-relacionais, as recomendações oficiais são sempre um bom “norte” para quem está começando com tecnologias que não conhecemos bem e é isso que quis trazer aqui hoje, sendo que todas essas dicas (e muitas outras), podem ser encontrados nos [artigos técnicos do MongoDB](https://docs.mongodb.com/).
