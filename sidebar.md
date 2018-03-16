@@ -32,6 +32,7 @@
 - [Importar arquivo .json para coleção](/mongodb/importjson.md)
 - [Importar arquivo .csv para coleção](/mongodb/importcsv.md)
 - [Instalando](/mongodb/instalacao.md)
+- [Monitoração](/mongodb/monitoracao.md)
 - [Restore de uma base](/mongodb/restore.md)
 - [Update em Arrays](/mongodb/update-array.md)
 
