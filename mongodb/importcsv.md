@@ -8,7 +8,7 @@ mongoimport -d database_name -c collection_name --type csv --file locations.csv 
 ## Dicas:
 --headerline: Usa a primeira linha do arquivo para o nome das colunas da coleção.
 
-## Referências
+## Referências:
 [mongoimport](https://docs.mongodb.com/manual/reference/program/mongoimport/index.html#use)
 
 ## Exemplo: 
