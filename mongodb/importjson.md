@@ -7,6 +7,9 @@ mongoimport -d database_name -c collection_name outfile.json
 
 ## Dicas:
 
+## Referências
+[mongoimport](https://docs.mongodb.com/manual/reference/program/mongoimport/index.html#use)
+
 ## Exemplo: 
 Importar para myfirstdb database a coleção Department2 do arquivo C:/test/department.json                
 ``` 
