@@ -10,6 +10,9 @@ mongoexport -d database_name -c collection_name -f column_1,column_2,column_3 --
 - a lista de colunas é separada por vifgulas e sem espaços
 - Deve-se declarar qual o tipo de arquivo de saida (--csv)
 
+## Referências
+[mongoexport](https://docs.mongodb.com/manual/reference/program/mongoexport/index.html)
+
 ## Exemplo: 
 Exportar a coleção Department em myfirstdb database para arquivo csv: C:/test/department.csv                     
 ``` 
