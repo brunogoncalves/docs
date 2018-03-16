@@ -8,6 +8,9 @@ mongoexport -d database_name -c collection_name -o outfile.json
 ## Dicas:
 - Por padrão o arquivo gerado é .json, não é necessário especificar o tipo
 
+## Referências
+[mongoexport](https://docs.mongodb.com/manual/reference/program/mongoexport/index.html)
+
 ## Exemplo: 
 Exportar a coleção Department em myfirstdb database para arquivo json: C:/test/department.json                            
 ``` 
