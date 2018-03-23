@@ -28,7 +28,7 @@
 - [Backup de uma base](/mongodb/dump.md)
 - [Boas práticas com MongoDB](/mongodb/boaspraticas.md)
 - [Exportar coleção para arquivo .json](/mongodb/exportjson.md)
-- [Exportar coleção para arquivo .csv](/mongodb/importcsv.md)
+- [Exportar coleção para arquivo .csv](/mongodb/exportcsv.md)
 - [Importar arquivo .json para coleção](/mongodb/importjson.md)
 - [Importar arquivo .csv para coleção](/mongodb/importcsv.md)
 - [Instalando](/mongodb/instalacao.md)
