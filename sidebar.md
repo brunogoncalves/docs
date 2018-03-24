@@ -27,10 +27,11 @@
 **MongoDB**
 - [Backup de uma base](/mongodb/dump.md)
 - [Boas práticas com MongoDB](/mongodb/boaspraticas.md)
-- [Exportar coleção para arquivo .json](/mongodb/exportjson.md)
 - [Exportar coleção para arquivo .csv](/mongodb/exportcsv.md)
-- [Importar arquivo .json para coleção](/mongodb/importjson.md)
+- [Exportar coleção para arquivo .json](/mongodb/exportjson.md)
 - [Importar arquivo .csv para coleção](/mongodb/importcsv.md)
+- [Importar arquivo .json para coleção](/mongodb/importjson.md)
+- [Importar arquivo .txt para coleção](/mongodb/importtsv.md)
 - [Instalando](/mongodb/instalacao.md)
 - [Monitoração](/mongodb/monitoracao.md)
 - [Restore de uma base](/mongodb/restore.md)
