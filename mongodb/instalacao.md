@@ -40,13 +40,13 @@ siga os passos a seguir:
   O arquivo de configuração será um arquivo ```.cfg``` e terá que especificar o ```systemLog.path``` e o ```storage.dbPath```, portanto crie
   o arquivo seguindo o modelo abaixo:
 
-    ```
-    systemLog: 
-        destination: file 
-        path: c:\data\log\mongod.log
-    storage:
-        dbPath: c:\data\db 
-    ```
+```
+systemLog: 
+    destination: file 
+    path: c:\data\log\mongod.log
+storage:
+    dbPath: c:\data\db 
+```
 > Tome cuidado com o configuration file, ele costuma dar problemas por causa do tab, caso dê problema tente identar o texto apertando
 4 vezes a tecla espaço em cada campo necessário, assim como segue o modelo acima.
 
@@ -73,21 +73,20 @@ Por fim, inicialize o MongoDB Service com o seguinte comando:
 
 ``` net start MongoDB ```
 
-Se voce tiver como retorno...
-| Ingçês | Português |
+Se você tiver como retorno...
+
+| Inglês | Português |
 | ------ | --------- |
 | System Error 2 has occurred. | Erro de sistema 2. |
 | The system cannot find the file specified. | O sistema não pode encontrar o arquivo especificado. |
 
 ...remova o serviço e tente novamente...
-```mongod --remove
-   mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install 
-   net start MongoDB```
 
-
-
-
-
+```
+mongod --remove
+mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install 
+net start MongoDB
+```
 
 Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao mundo NoSQL.
 
