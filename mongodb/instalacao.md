@@ -74,13 +74,15 @@ Por fim, inicialize o MongoDB Service com o seguinte comando:
 ``` net start MongoDB ```
 
 Se voce tiver como retorno...
-|---|---|
+| Ingçês | Português |
+| ------ | --------- |
 | System Error 2 has occurred. | Erro de sistema 2. |
 | The system cannot find the file specified. | O sistema não pode encontrar o arquivo especificado. |
+
 ...remova o serviço e tente novamente...
-``` mongod --remove ```
-``` mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install ```
-``` net start MongoDB ```
+```mongod --remove
+   mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install 
+   net start MongoDB```
 
 
 
