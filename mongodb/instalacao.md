@@ -58,7 +58,7 @@ Preferencialmente coloque o serviço no diretório bin do MongoDB com o nome ```
 Finalmete para criar o serviço do MongoDB execute o seguinte comando no cmd:
 
 ```
-mongod --config "C:\Program Files\MongoDB\Server\3.2\mongod.cfg" --install
+mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install
 ```
 ou 
 ```
@@ -71,6 +71,22 @@ Caso você tenha usado o segundo jeito e tenha sucesso na operação, retornará
 
 Por fim, inicialize o MongoDB Service com o seguinte comando:
 
-```net start MongoDB```
+``` net start MongoDB ```
+
+Se voce tiver como retorno...
++---|---+
+System Error 2 has occurred. | Erro de sistema 2.
+The system cannot find the file specified. | O sistema não pode encontrar o arquivo especificado.
+...remova o serviço e tente novamente...
+``` mongod --remove ```
+``` mongod --config "C:\Program Files\MongoDB\Server\3.6\bin\mongod.cfg" --install ```
+``` net start MongoDB ```
+
+
+
+
+
 
 Feito todos esses passos o seu MongoDB já estará rodando perfeitamente, bem vindo ao mundo NoSQL.
+
+
