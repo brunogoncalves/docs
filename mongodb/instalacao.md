@@ -12,7 +12,8 @@ Para usar o instalado yum, deve antes ser habilitado o repositorio
 E preencher com o conteúdo abaixo
 
 ```
-    [mongodb] name=MongoDB Repository
+    [mongodb]
+    name=MongoDB Repository
     baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
     gpgcheck=0
     enabled=1
