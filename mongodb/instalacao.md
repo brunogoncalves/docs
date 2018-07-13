@@ -1,5 +1,34 @@
 # MongoDB - Instalação
 
+# Linux
+
+## Preparando repositório
+
+Para usar o instalado yum, deve antes ser habilitado o repositorio
+```
+    vim /etc/yum.repos.d/mongodb.repo
+```
+
+E preencher com o conteúdo abaixo
+
+```
+    [mongodb] name=MongoDB Repository
+    baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
+    gpgcheck=0
+    enabled=1
+```
+
+Agora para instalar execute o comando abaixo:
+```
+    yum install mongo-10gen mongo-10gen-server
+```
+
+Feito isso agora você terá um serviço mongod como serviço linux
+
+Referência: 
+ - Linux 6 [https://www.liquidweb.com/kb/how-to-install-mongodb-on-centos-6/](https://www.liquidweb.com/kb/how-to-install-mongodb-on-centos-6/)
+ - Linux 7 [https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7)
+
 # Windows
 
 ## Download
