@@ -14,6 +14,9 @@
  - [Virtual Host](/apache/virtualhost.md)
  - [Load Balance](/apache/loadbalance.md)
  - [SSL](/apache/ssl.md)
+ 
+**nginx**
+ - [Load Balance](/nginx/load-balance.md) 
 
 **PHP**
 - [Instalando](/php/instalando.md)
