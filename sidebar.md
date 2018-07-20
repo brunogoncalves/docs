@@ -15,7 +15,7 @@
  - [Load Balance](/apache/loadbalance.md)
  - [SSL](/apache/ssl.md)
  
-**nginx**
+**Nginx**
  - [Load Balance](/nginx/load-balance.md) 
 
 **PHP**
@@ -39,6 +39,7 @@
 - [Monitoração](/mongodb/monitoracao.md)
 - [Restore de uma base](/mongodb/restore.md)
 - [Update em Arrays](/mongodb/update-array.md)
+- [Autenticação](/mongodb/auth.md)
 
 **VsFTP**
  - [Instalando](/ftp/instalando.md)
