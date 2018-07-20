@@ -2,7 +2,7 @@
 
 # Linux
 
-## Preparando repositório
+## Preparando repositório para versão 4.0
 
 Para usar o instalado yum, deve antes ser habilitado o repositorio
 ```
@@ -12,21 +12,23 @@ Para usar o instalado yum, deve antes ser habilitado o repositorio
 E preencher com o conteúdo abaixo
 
 ```
-    [mongodb]
-    name=MongoDB Repository
-    baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
-    gpgcheck=0
-    enabled=1
+[mongodb-org-4.0] 
+name = Repositório do MongoDB 
+baseurl = https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.0/x86_64/ 
+gpgcheck = 1 
+enabled = 1 
+gpgkey = https: // www.mongodb.org/static/pgp/server-4.0.asc
 ```
 
 Agora para instalar execute o comando abaixo:
 ```
-    yum install mongo-10gen mongo-10gen-server
+yum install mongodb-org
 ```
 
 Feito isso agora você terá um serviço mongod como serviço linux
 
 Referência: 
+ - Linux Oficial [https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-red-hat/)
  - Linux 6 [https://www.liquidweb.com/kb/how-to-install-mongodb-on-centos-6/](https://www.liquidweb.com/kb/how-to-install-mongodb-on-centos-6/)
  - Linux 7 [https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-7)
 
