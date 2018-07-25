@@ -22,6 +22,7 @@
 - [Instalando](/php/instalando.md)
 - [Versão 54](/php/versao-cinco-quatro.md)
 - [Versão 56](/php/versao-cinco-seis.md)
+- [Versão 70](/php/versao-sete.md)
 
 **MySQL**
  - [Instalando](/mysql/instalando-mysql.md)
