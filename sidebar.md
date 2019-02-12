@@ -70,3 +70,7 @@
  - [Alterando diretório padrão](/bower/alterando-diretorio-padrao.md)
  - [Pesquisando pacotes](/bower/pesquisando-pacotes.md)
  - [Adicionando um pacote no Projeto](/bower/adicionando-pacote.md)
+
+**TravisCI**
+ - [Instalando](/travis/instalando.md)
+ - [Criptografando um RSA](/travis/criptografando_rsa.md)
