@@ -64,3 +64,11 @@ Em máquinas replicadas quando vai ser importando um SCRIPT com alteração de b
 Para corrigir esse problema deve ser carregado um SQL Query e executar o seguinte comando:
 
 SET GLOBAL binlog_format = 'ROW';
+
+## Tabelas em arquivos separados
+
+Para configurar que cada tabela esteja em um arquivo separado no InnoDB, você deve ativar essa funcionalidade no my.cnf
+
+    innodb_file_per_table = 1
+    
+    
