@@ -34,3 +34,8 @@ Para instalar o nodejs e o npm no CentOS 6x siga a instruções abaixo, para a v
  
  pm2 save
 ```
+
+## PM2 quando PHP
+```
+ pm2 start index.php --interpreter="php"
+```
