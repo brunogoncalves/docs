@@ -1,3 +1,17 @@
+# Para versão 5.7
+
+    sudo yum install https://dev.mysql.com/get/mysql-community-common-5.7.27-1.el6.x86_64.rpm
+    
+    sudo yum install https://dev.mysql.com/get/mysql-community-libs-5.7.27-1.el6.x86_64.rpm
+    
+    sudo yum install https://dev.mysql.com/get/mysql-community-client-5.7.27-1.el6.x86_64.rpm
+    
+    sudo yum install https://dev.mysql.com/get/mysql-community-server-5.7.27-1.el6.x86_64.rpm
+    
+    # Desde a versão 5.6 o mysql gera um senha temporaria, para pega-la execute
+    
+    sudo cat /var/log/mysqld.log | grep 'temporary password'
+
 # Instalando
 
 Para instalar o servidor MySQL execute o comando abaixo:
