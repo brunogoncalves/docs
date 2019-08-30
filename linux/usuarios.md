@@ -28,6 +28,6 @@ Adicione o `/bin/false` na lista se não tiver
 
     chown usuario:root /dados/www
 
+## Desativando a necessidade de acesso via certificado
 
-
-
+https://www.liberiangeek.net/2014/07/enable-ssh-key-logon-disable-password-password-less-logon-centos/
