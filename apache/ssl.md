@@ -38,3 +38,7 @@ Salve seu arquivo de configuração e reinicie o Apache.
 
 O procedimento para reiniciar o Apache varia muito de acordo com a plataforma de sistema operacional. Normalmente, em plataformas tipo Unix (Linux, Solaris, HP-UX, etc.), é necessário executar um script e reiniciar o daemon httpd. No Windows, geralmente você para e reinicia o serviço Apache no console administrativo de serviços. Consulte o fornecedor do seu sistema operacional ou a documentação do Apache.
 
+## Utilizando o certificado Let’s Encrypt (Free)
+
+Verificar https://acmephp.github.io/
+
