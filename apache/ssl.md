@@ -40,5 +40,7 @@ O procedimento para reiniciar o Apache varia muito de acordo com a plataforma de
 
 ## Utilizando o certificado Let’s Encrypt (Free)
 
-Verificar https://acmephp.github.io/
+Certficados Free: https://letsencrypt.org/
+
+Serviço para atualizar certificado automaticos: https://acmephp.github.io/
 
