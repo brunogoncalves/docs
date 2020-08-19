@@ -6,6 +6,7 @@
 - **Color Highlight** - nos arquivos de web quando exibido um cor em hexa, ele mostrar um preview da cor - [extensao](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - **Portuguese (Brazil) Language Pack for Visual Studio Code** - Traduz o VSCode para portuguÊs Brasil - [extensao](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR)
 - **XML Tools** - Formatação de XMLs, para usar no auto-format - [extensao](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+- **Hex Editor** - Editar arquivos hex - [extensao](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
 
 ### JS
 - **Vetur** - Além da formatação dos arquivos vue, tem facilitadores de códigos e muito mais - [extensao](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
