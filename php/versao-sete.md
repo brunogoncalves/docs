@@ -2,6 +2,8 @@
 
 Fonte: https://webtatic.com/packages/php71/
 
+Para install PHP72 no centos6 https://www.tecmint.com/install-php-7-in-centos-6/ (testei no docker)
+
 ## Para descobrir a versão atual do PHP:
 
     yum info php70w
