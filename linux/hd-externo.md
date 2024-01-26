@@ -56,4 +56,16 @@ Para desmontar uma partição basta executar o comando abaixo:
 Quando for aumentado o tamanho de um HD para o sistema aceitar a expanção deve ser executado o comando abaixo:
 
      resize2fs /dev/xvdc
+## Aumentar/Extender o HD/Valune na AWS EC2
+https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
 
+Após modificar o voluma, deve ser feito os passos abaixo:
+    # Para visualizar a situação
+    lsblk
+
+Em seguida 
+    # Para modificar o volume local
+    sudo growpart /dev/nvme0n1 1
+
+Depois
+    # Para modificar a partição
