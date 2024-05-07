@@ -66,6 +66,7 @@ Nas instalações no Windows, geralmente é incluído no my.ini a diretiva abaix
 No arquivo my.ini no diretório da instalação do MySQL essa diretiva permite que o nome da tabelas sejam informado em letras maiúsculas.
 
     lower_case_table_names=0
+    lower_case_table_names=2 # Isso funcionou na versão MySQL 5.7
 
 Uma outra configuração que preciso fazer para o DataBuilder via ODBC MySQL é no BDE aumentar o campo BLOBS TO CACHE
 
