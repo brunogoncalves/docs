@@ -39,3 +39,8 @@ Para instalar o nodejs e o npm no CentOS 6x siga a instruções abaixo, para a v
 ```
  pm2 start index.php --interpreter="php"
 ```
+## PM2 LOGROTATE
+https://github.com/keymetrics/pm2-logrotate
+```
+pm2 install pm2-logrotate
+```
